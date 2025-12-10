@@ -2,30 +2,31 @@
 
 ## Concepts
 
+### 1. What is NLP? Tokens, Types, Corpora
 
-What is NLP? Tokens, types, corpora
+Video Resource: [What are Word Embeddings?](https://www.youtube.com/watch?v=wgfSDrqYMJ4)
 
-Text preprocessing:
+### 2. Text Preprocessing
 
-tokenization
+- [tokenization](https://youtu.be/fNxaJsNG3-s?si=giRDIRu-1Y7KWSlQ)
 
-stemming vs lemmatization
+- [stemming vs lemmatization](https://youtu.be/HHAilAC3cXw?si=PB4H-PnwdvU_CfJI)
 
-stopword removal
+- [stopword removal](https://youtu.be/vUPAOU2NPls?si=3zTpPSHUD8_o3Jao)
 
-n-grams
+- [n-grams](https://youtu.be/nZromH6F7R0?si=gUS_6gQOJ25PIBqK)
 
-Basic ML for NLP (Bag-of-Words, TF-IDF)
+### 3. Basic ML for NLP (Bag-of-Words, TF-IDF)
 
-Evaluation metrics: accuracy, F1, BLEU (overview)
+### 4. Evaluation metrics: accuracy, F1, BLEU (overview)
 
-Coding Tasks
+## Coding Tasks
 
-Implement tokenization & stemming using Python + NLTK / spaCy
+- Implement tokenization & stemming using Python + NLTK / spaCy
 
-Build a TF-IDF text classifier for sentiment (IMDb or SST-2)
+- Build a TF-IDF text classifier for sentiment (IMDb or SST-2)
 
-Explore Hugging Face datasets
+- Explore Hugging Face datasets
 
 ## Resources
 
