@@ -9,7 +9,7 @@ from lstm_model import LSTMClassifier
 
 # Hyperparameters
 BATCH_SIZE = 64
-EPOCHS = 5
+EPOCHS = 10
 LR = 1e-3
 MAX_LEN = 300
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
