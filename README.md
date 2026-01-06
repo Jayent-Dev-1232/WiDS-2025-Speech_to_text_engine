@@ -118,26 +118,29 @@ Week 2 focused on modern NLP techniques using neural networks and representation
 
 ## 📁 Repository Structure
 
+```text
 WIDS-2025-SPEECH_TO_TEXT_ENGINE/
 │
 ├── Week 1/
-│ ├── Week-1_Solutions/
-│ ├── Coding_Tasks_Solution.ipynb
-│ ├── imdb_train.csv
-│ ├── imdb_test.csv
-│ ├── Notes.md
-│ ├── WiDS_Speech_to_Text_Engine_Report.pdf
-│ └── README.md
+│   ├── Week-1_Solutions/
+│   ├── Coding_Tasks_Solution.ipynb
+│   ├── imdb_train.csv
+│   ├── imdb_test.csv
+│   ├── Notes.md
+│   ├── WiDS_Speech_to_Text_Engine_Report.pdf
+│   └── README.md
 │
 ├── Week 2/
-│ ├── Coding_Tasks_Solutions/
-│ │ ├── data/
-│ │ ├── notebooks/
-│ │ ├── report/
-│ │ └── src/
-│ └── README.md
-│
-└── README.md
+│   ├── Coding_Tasks_Solutions/
+│   │   ├── data/
+│   │   ├── notebooks/
+│   │   ├── report/
+│   │   └── src/
+│   └── README.md
+├──Week 3/
+|  ├──README.md
+|
+├── README.md
 
 ---
 
