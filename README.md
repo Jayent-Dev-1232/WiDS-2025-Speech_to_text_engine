@@ -9,13 +9,14 @@ This repository is created as part of the **Winter in Data Science (WiDS)** proj
 
 ## 📌 Program Overview
 
-This project documents my structured journey through **Natural Language Processing (NLP)** and **Deep Learning for NLP**, with a focus on building strong foundations required for developing a **Speech-to-Text Engine** by the end of the project.  
+This project documents my structured journey through **Natural Language Processing (NLP)**, **Deep Learning for NLP** and **Speech Processing**, culminating in building a **Speech-to-Text Engine** and deploying it as a real world application.  
 
 The repository contains:
 - Conceptual learning notes
 - Hands-on coding implementations
 - Mini-projects and comparisons
 - Reports and visualizations
+- End-to-End Speech-to-Text Model + Deployment
 
 ---
 
@@ -27,6 +28,14 @@ The repository contains:
 - [Week 2 – Deep Learning for NLP](#week-2--deep-learning-for-nlp)
   - Learning
   - Tasks Completed
+- [Week 3 - Transformers + Modern NLP](#week-3--transformers-+-modern-nlp)
+  - Learning
+  - Tasks Completed
+  - Mini Project
+- [Week 4 - Introduction to Speech Processing](#week-4--introduction-to-speech-processing)
+  - Learning
+  - Tasks Completed
+- [Week 5 - Speech-to-Text Model Traning and Deployment](#week-5--speech-to-text-model-training-and-deployment)
 - [Repository Structure](#repository-structure)
 - [Key Learnings](#key-learnings)
 - [Acknowledgements](#acknowledgements)
@@ -86,8 +95,6 @@ Week 2 focused on modern NLP techniques using neural networks and representation
   - PCA
   - t-SNE
 
----
-
 ### 💻 Tasks Completed
 
 - Trained **Word2Vec embeddings** on a text corpus
@@ -116,6 +123,52 @@ Week 2 focused on modern NLP techniques using neural networks and representation
 
 ---
 
+## Week 3 - Transformers + Modern NLP
+
+### Learning
+- Transformer Architecture (Self-Attention, Q/K/V)
+- Encoder vs Decoder vs Encoder-Decoder
+- BERT vs GPT vs T5/BART
+- Tokenizers
+  - WordPiece
+  - BPE
+  - SentencePiece
+
+### Tasks Completed
+- Fine-tuned BERT for Text Classification
+- Trained Custom SentencePiece Tokenizer
+- Transformer inference pipelines
+
+### Mini Project
+- Built Text Summarizer / Q&A System using pretrained Transformers
+
+---
+
+## Week 4 - Introduction to Speech Processing
+
+### Learning
+- Speech as Digital Signal
+- Waveforms & Frequency Analysis
+- Spectrograms & Log Spectrograms
+- Mel Spectrograms & MFCCs
+- Classical vs Neural Speech Recognition
+- CTC Loss Concept
+
+### Tasks Completed
+- Audio loading & normalization
+- Waveform visualization
+- Spectrogram & MFCC extraction
+- Feature comparison
+- Keyword Spotting Model (Yes/No classification using CNN)
+
+---
+
+## Week 5 - Speech-to-Text Model Traning and Deployment
+- Fine-tuned a pretrained STT model to transcribe short phrases with reasonable WER
+- Turn the trained model into a real-time Speech-to-Text Application
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -139,8 +192,24 @@ WIDS-2025-SPEECH_TO_TEXT_ENGINE/
 │   └── README.md
 ├──Week 3/
 |  ├──README.md
+|  ├──mini_project_summarizer.ipynb
+|  ├──Report.md
+|  ├──tokenizer_sentencepiece.ipynb
+|  └──transformer_basics_and_inference.ipynb
 |
-├── README.md
+├──Week 4/
+|  ├──data/
+|  ├──notebooks/
+|  ├──src/
+|  ├──README.md
+|  └──requirements.txt
+|
+├──Week 5/
+|  ├──README.md
+|  ├──stt_deployment.ipynb
+|  └──stt_model_training.ipynb
+|
+└──README.md
 ```
 
 ---
@@ -152,6 +221,11 @@ WIDS-2025-SPEECH_TO_TEXT_ENGINE/
 - Word embeddings capture semantic relationships beyond bag-of-words
 - LSTMs improve contextual understanding through sequence modeling
 - Deep learning models offer better performance but require careful tuning
+- Transformers revolutionize NLP with self-attention
+- Speech signals require time-frequency analysis
+- MFCCs and Mel Spectrograms are critical audio features
+- Whisper/Wav2Vec2 enable end-to-end STT
+- Deployment skills are as important as model accuracy
 
 ---
 
@@ -165,6 +239,7 @@ WIDS-2025-SPEECH_TO_TEXT_ENGINE/
   - scikit-learn
   - Hugging Face
   - NLTK
+  - Librosa
 
 ---
 
